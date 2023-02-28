@@ -32,3 +32,21 @@ First, I had to `cd` into the `lab7` directory. Then, the `javac -cp .:lib/hamcr
 
 Keys pressed: `n a n o  L<tab> .j<tab><enter>, <down> (42 times) <right> (12 times) <delete>, 2, <Ctrl-o><enter>, <Ctrl-x><enter>`
 
+The `nano ListExamples.java` command opens the file from the command line inorder to fix the bug in the code. I used tab-complete to complete the `nano` argument, but since there are both `ListExamples.java` and `ListExamplesTests.java`, it tab-completed to only `ListExamples`. So I typed in `.j` to then tab-complete to `ListExamples.java`. Once inside the `nano` text editor, I pressed `<down>` 42 times and `<right>` 12 times to get to where I needed to edit. I deleted with `<delete>`, typed `2`, and then saved and exited with `<Ctrl-o><Ctrl-x>`. 
+
+- Run the tests, demonstrating that they now succeed
+
+![Image]()
+
+Keys pressed: `<up><up><up><enter>, <up><up><up><enter>`
+
+Just like before, the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was now three up in my history and the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command was three up in my history. I used the arrow keys for this. 
+
+- Commit and push the resulting change to your Github account
+
+![Image]()
+
+Keys pressed: `g i t  a d d  L<tab> .j<tab><enter>, g i t  c o m m i t  - m  "updated" <enter>`
+
+To add and commit, I used `git add ListExamples.java` and `git commit -m "updated"`. I typed out `git add` and then pressed `L` and `<tab>` to tab-complete to `ListExamples`, followed by `.j` and `<tab>` to tab-complete to `ListExamples.java`. I typed out the whole `git commit` command.  
+
