@@ -4,7 +4,7 @@ In this Lab Report, I am going to document me reproducing the task from the comp
 
 ### Log into ieng6
 
-![Image]()
+![Image](https://github.com/igerth/Cse15l-lab-report-4/blob/main/lab%207%20step%204.png?raw=true)
 
 Keys pressed: `<up><enter>`
 
@@ -12,7 +12,7 @@ The `ssh cs15lwi23arn@ieng6.ucsd.edu` command is what logs me into my ieng6 acco
 
 ### Clone your fork of the repository from your Github account
 
-![Image]()
+![Image](https://github.com/igerth/Cse15l-lab-report-4/blob/main/lab%207%20step%205.png?raw=true)
 
 Keys pressed: `g i t  c l o n e  <Command-V><enter>`
 
@@ -20,7 +20,7 @@ The `git clone git@github.com:igerth/lab7.git` command clones my fork of the rep
 
 ### Run the tests, demonstrating that they fail
 
-![Image]()
+![Image](https://github.com/igerth/Cse15l-lab-report-4/blob/main/lab%207%20step%206.png?raw=true)
 
 Keys pressed: `c d  l<tab> <up><up><up><up><up><up><up><enter>, <up><up><up><up><up><up><up><enter>`
 
@@ -28,7 +28,7 @@ First, I had to `cd` into the `lab7` directory. Then, the `javac -cp .:lib/hamcr
 
 ### Edit the code file to fix the failing test
 
-![Image]()
+![Image](https://github.com/igerth/Cse15l-lab-report-4/blob/main/lab%207%20step%207.png?raw=true)
 
 Keys pressed: `n a n o  L<tab> .j<tab><enter>, <down> (42 times) <right> (12 times) <delete>, 2, <Ctrl-o><enter>, <Ctrl-x><enter>`
 
@@ -36,7 +36,7 @@ The `nano ListExamples.java` command opens the file from the command line inorde
 
 ### Run the tests, demonstrating that they now succeed
 
-![Image]()
+![Image](https://github.com/igerth/Cse15l-lab-report-4/blob/main/lab%207%20step%208.png?raw=true)
 
 Keys pressed: `<up><up><up><enter>, <up><up><up><enter>`
 
@@ -44,7 +44,7 @@ Just like before, the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.ja
 
 ### Commit and push the resulting change to your Github account
 
-![Image]()
+![Image](https://github.com/igerth/Cse15l-lab-report-4/blob/main/lab%207%20step%209.png?raw=true)
 
 Keys pressed: `g i t  a d d  L<tab> .j<tab><enter>, g i t  c o m m i t  - m  "updated" <enter>`
 
